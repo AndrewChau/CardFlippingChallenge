@@ -1,10 +1,11 @@
-# Running Solution
-
-fsharpi run.fsx *[debug]*
-
 # Card Flipping Challenge
 
-source: [here](https://old.reddit.com/r/dailyprogrammer/comments/aq6gfy/20190213_challenge_375_intermediate_a_card/)
+## Running Solution
+
+`fsharpi run.fsx *[debug]*`
+
+Original challenge from: https://old.reddit.com/r/dailyprogrammer/comments/aq6gfy/20190213_challenge_375_intermediate_a_card
+
 
 ## Description
 This challenge is about a [simple card flipping solitaire game](https://www.youtube.com/watch?v=CCxs-tu8tOU). You're presented with a sequence of cards, some face up, some face down. You can remove any face up card, but you must then flip the adjacent cards (if any). The goal is to successfully remove every card. Making the wrong move can get you stuck.
