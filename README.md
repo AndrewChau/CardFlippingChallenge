@@ -2,12 +2,13 @@
 
 ## Running Solution
 
-`fsharpi run.fsx *[debug]*`
-
-Original challenge from: https://old.reddit.com/r/dailyprogrammer/comments/aq6gfy/20190213_challenge_375_intermediate_a_card
+`fsharpi run.fsx [debug]`
 
 
 ## Description
+
+__Challenge from:__ https://old.reddit.com/r/dailyprogrammer/comments/aq6gfy/20190213_challenge_375_intermediate_a_card
+
 This challenge is about a [simple card flipping solitaire game](https://www.youtube.com/watch?v=CCxs-tu8tOU). You're presented with a sequence of cards, some face up, some face down. You can remove any face up card, but you must then flip the adjacent cards (if any). The goal is to successfully remove every card. Making the wrong move can get you stuck.
 
 In this challenge, a `1` signifies a face up card and a `0` signifies a face down card. We will also use zero-based indexing, starting from the left, to indicate specific cards. So, to illustrate a game, consider this starting card set.
